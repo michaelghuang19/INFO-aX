@@ -10,8 +10,6 @@ knitr::opts_chunk$set(echo = TRUE)
 options(warn = -1)
 library(ggplot2)
 library(knitr)
-library(data.table)
-library(openintro)
 library(plotly)
 source("analysis.R")
 ```
