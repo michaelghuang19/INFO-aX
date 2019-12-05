@@ -40,6 +40,8 @@ From our analysis, we can conclude that suicide
 
 ## Reflection
 
+Include a reflection on what you learned from your analysis of the time series data.  You might answer such questions as: What did you learn? What new questions do you have?  
+
 I learned about  
 
 Some new questions that arose when reflecting upon the results included how other cultural aspects or specific environments (e.g. urban, rural) affect suicide rates. As country-wide data is fairly generalized and very broad, it isn't really fair to draw conclusions from across this data, and generalizing a generation using multiple cultures and countries feels inaccurate as well.  

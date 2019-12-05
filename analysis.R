@@ -9,3 +9,6 @@ df <- read.csv("data/master.csv")
 
 # we can group_by, or anything else since this is very fluid notebook.
 
+by_gen <- df %>%
+  group_by(generation) %>%
+  summarise(Avg_Suicides_Per_100k = mean(suicides.100k.pop))
