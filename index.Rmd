@@ -14,11 +14,11 @@ source("analysis.R")
 
 ## Introduction
 
-Include an introduction that describes the time series, answering the following questions: When was the data collected? Where was the data collected? Who collected the data?  Why was the data collected?
+Include an introduction that describes the time series, answering the following questions: When was the data collected? Where was the data collected? Who collected the data?  Why was the data collected?  
 
-The data was collected from the years
-The data was collected from 
-The source of the data was , and it was collected because
+The data was collected from the years  
+The data was collected from  
+The source of the data was , and it was collected because  
 
 ## Data Graphics
 
@@ -26,25 +26,25 @@ The source of the data was , and it was collected because
 plot(pressure)
 ```
 
-Include a plot of the time series data, which includes a caption, labeled axes, and a legend if needed. 
+Include a plot of the time series data, which includes a caption, labeled axes, and a legend if needed.  
 
 The plot above shows the data, 
 
 ## Discussion
 
-Include a discussion of what can be learned from the time series, what stakeholders might be impacted by the time series, and how it might be used to do good in the world. What, in short, do you conclude from your analysis?
+Include a discussion of what can be learned from the time series, what stakeholders might be impacted by the time series, and how it might be used to do good in the world. What, in short, do you conclude from your analysis?  
 
-From the time series data, we can see that
-Some example stakeholders that might be impacted by the time series
-One way to draw the good from this is to 
-From our analysis, we can conclude that
+From the time series data, we can see that  
+Some example stakeholders that might be impacted by the time series  
+One way to draw the good from this is to  
+From our analysis, we can conclude that  
 
 ## Reflection
 
-Include a reflection on what you learned from your analysis of the time series data.  You might answer such questions as: What did you learn? What new questions do you have?
+Include a reflection on what you learned from your analysis of the time series data.  You might answer such questions as: What did you learn? What new questions do you have?  
 
-I learned
-Some new questions that arose when reflecting upon the results included 
+I learned  
+Some new questions that arose when reflecting upon the results included  
 
 ## Code
 
