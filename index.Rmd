@@ -20,8 +20,8 @@ The data was compiled from a variety of sources. These include the United Nation
 
 ## Data Graphics
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+``` {r echo = FALSE, message = FALSE}
+by_gen
 ```
 
 Include a plot of the time series data, which includes a caption, labeled axes, and a legend if needed.  
