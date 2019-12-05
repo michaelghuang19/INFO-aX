@@ -1,6 +1,5 @@
 ---
 title: "Analyzing Worldwide Suicide Rates Over Time"
-author: "Michael Huang"
 output: html_document
 ---
 
