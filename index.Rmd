@@ -1,7 +1,6 @@
 ---
-title: "INFO-aX"
+title: "Analyzing Worldwide Suicide Rates Over Time"
 author: "Michael Huang"
-date: "December 2, 2019"
 output: html_document
 ---
 
