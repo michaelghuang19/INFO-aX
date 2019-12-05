@@ -14,11 +14,9 @@ source("analysis.R")
 
 ## Introduction
 
-Include an introduction that describes the time series, answering the following questions: When was the data collected? Where was the data collected? Who collected the data?  Why was the data collected?  
+This dataset is a massive dataset describing suicide numbers, rates, and general socioeconomic data for every country from 1985-2026.  
 
-The data was collected from the years  
-The data was collected from  
-The source of the data was , and it was collected because  
+The data was compiled from a variety of sources. These include the United Nations (via their Development Program), the World Bank, and the World Health Organization. Most of the data was collected for the purpose of developing human resources and promoting societal and international development (especially in the case of the United Nations and the World Bank), or to raise awareness and promote social health (especially in the case of the World Health Organization).
 
 ## Data Graphics
 
@@ -32,19 +30,19 @@ The plot above shows the data,
 
 ## Discussion
 
-Include a discussion of what can be learned from the time series, what stakeholders might be impacted by the time series, and how it might be used to do good in the world. What, in short, do you conclude from your analysis?  
+From the time series data, we can see a trend in how  
 
-From the time series data, we can see that  
-Some example stakeholders that might be impacted by the time series  
-One way to draw the good from this is to  
-From our analysis, we can conclude that  
+Some example stakeholders that might be impacted by the time series is the rates at which suicide has changed among the different generations, or how suicide affects people of different development levels or generations.   
+
+One way to draw the good from this is to analyze this further using more specific economic data. Although we do have measures such as GDP and HDI, we probably can look more specifically to pinpoint specific trends and root causes that might predict or suggest targets for suicide prevention. We can try to find and subsequently develop more effective indicators and preventors for suicide in this way.  
+
+From our analysis, we can conclude that suicide  
 
 ## Reflection
 
-Include a reflection on what you learned from your analysis of the time series data.  You might answer such questions as: What did you learn? What new questions do you have?  
+I learned about  
 
-I learned  
-Some new questions that arose when reflecting upon the results included  
+Some new questions that arose when reflecting upon the results included how other cultural aspects or specific environments (e.g. urban, rural) affect suicide rates. As country-wide data is fairly generalized and very broad, it isn't really fair to draw conclusions from across this data, and generalizing a generation using multiple cultures and countries feels inaccurate as well.  
 
 ## Code
 
