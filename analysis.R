@@ -5,12 +5,20 @@ library(ggplot2)
 setwd("~/uw19.20/2019.9/info201/workspace/INFO-aX")
 
 
-df <- read.csv("data/master.csv")
+df <- read.csv("data/master.csv") %>%
+  mutate(country = ï..country)
 
 
 # we can group_by, or anything else since this is very fluid notebook.
 
 by_gen <- df %>%
+  group_by(generation) %>%
+  summarise(Avg_Suicides_Per_100k = mean(suicides.100k.pop)) %>%
+  ggplot(aes(x = generation, y = Avg_Suicides_Per_100k)) + 
+  geom_bar(stat = "identity")
+
+by_gen_us <- df %>%
+  filter(country == "United States") %>%
   group_by(generation) %>%
   summarise(Avg_Suicides_Per_100k = mean(suicides.100k.pop)) %>%
   ggplot(aes(x = generation, y = Avg_Suicides_Per_100k)) + 
@@ -22,10 +30,8 @@ by_year <- df %>%
   ggplot(aes(x = year, y = Avg_Suicides_Per_100k)) + 
   geom_bar(stat = "identity")
 
-# we need to rename country here for some reason
-
 by_year_us <- df %>%
-  select(labels(df[1])[2] == "United States") %>%
+  filter(country == "United States") %>%
   group_by(year) %>%
   summarise(Avg_Suicides_Per_100k = mean(suicides.100k.pop)) %>%
   ggplot(aes(x = year, y = Avg_Suicides_Per_100k)) + 
@@ -35,12 +41,18 @@ by_year_us <- df %>%
 # different data points included, just categorized
 
 by_age_us <- df %>%
-  select(country == "United States") %>%
-  group_by(age)
+  filter(country == "United States") %>%
+  group_by(age) %>%
+  summarise(Avg_Suicides_Per_100k = mean(suicides.100k.pop)) %>%
+  ggplot(aes(x = age, y = Avg_Suicides_Per_100k)) + 
+  geom_bar(stat = "identity")
 
 by_sex_us <- df %>%
-  select(country == "United States") %>%
-  group_by(sex)
+  filter(country == "United States") %>%
+  group_by(sex) %>%
+  summarise(Avg_Suicides_Per_100k = mean(suicides.100k.pop)) %>%
+  ggplot(aes(x = sex, y = Avg_Suicides_Per_100k)) + 
+  geom_bar(stat = "identity")
 
 # Maybe further gender, age differences
   

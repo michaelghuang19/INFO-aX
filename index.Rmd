@@ -21,12 +21,32 @@ The data was compiled from a variety of sources. These include the United Nation
 ## Data Graphics
 
 ``` {r echo = FALSE, message = FALSE}
-by_gen
+by_year
 ```
 
 Include a plot of the time series data, which includes a caption, labeled axes, and a legend if needed.  
 
-The plot above shows the data, 
+The plot above shows the data,  
+
+Looking at the US data, it closely follows with the global trends:
+
+``` {r echo = FALSE, message = FALSE}
+by_year_us
+```
+
+Some other interesting graphs, with the worldwide generational data first and then the corresponding US data:
+
+``` {r echo = FALSE, message = FALSE}
+by_gen
+by_gen_us
+```
+
+Some other interesting graphs for the US, showing suicide rates by age and by sex:
+
+``` {r echo = FALSE, message = FALSE}
+by_age_us
+by_sex_us
+```
 
 ## Discussion
 
