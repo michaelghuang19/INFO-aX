@@ -14,7 +14,7 @@ source("analysis.R")
 
 ## Introduction
 
-This dataset is a massive dataset describing suicide numbers, rates, and general socioeconomic data for every country from 1985-2026.  
+This dataset is a massive dataset describing suicide numbers, rates, and general socioeconomic data for every country from 1985-2016.  
 
 The data was compiled from a variety of sources. These include the United Nations (via their Development Program), the World Bank, and the World Health Organization. Most of the data was collected for the purpose of developing human resources and promoting societal and international development (especially in the case of the United Nations and the World Bank), or to raise awareness and promote social health (especially in the case of the World Health Organization).
 
@@ -24,15 +24,16 @@ The data was compiled from a variety of sources. These include the United Nation
 by_year
 ```
 
-Include a plot of the time series data, which includes a caption, labeled axes, and a legend if needed.  
 
-The plot above shows the data,  
+The plot above shows one representation of the data, with global average rate of suicides per 100,000 people mapped over time. There appears to be an uptick in suicides as we approached the later 1990s, but then slowly decreased over time. Afterwards, in the recent 2010s, there has been a stagnation in suicide rates and then a sudden uptick in the most recent year of data (2016).  
 
-Looking at the US data, it closely follows with the global trends:
+Looking at the US data, it also appears to invert with the global trend:
 
 ``` {r echo = FALSE, message = FALSE}
 by_year_us
 ```
+
+The shape is instead upside down, like a U-shaped parabola that dips in the early 200s and then rises slightly in more recent years.  
 
 Some other interesting graphs, with the worldwide generational data first and then the corresponding US data:
 
@@ -50,21 +51,19 @@ by_sex_us
 
 ## Discussion
 
-From the time series data, we can see a trend in how  
+From the time series data, we can see a trend in how suicide rates have decreased.  
 
-Some example stakeholders that might be impacted by the time series is the rates at which suicide has changed among the different generations, or how suicide affects people of different development levels or generations.   
+Some example stakeholders that might be impacted by the time series is the rates at which suicide has changed among the different generations, or how suicide affects people of different development levels or generations. We could also investigate how indirect stakeholders like public health officials handle various issues like suicide prevention, and how that has been more or less effective over time.   
 
 One way to draw the good from this is to analyze this further using more specific economic data. Although we do have measures such as GDP and HDI, we probably can look more specifically to pinpoint specific trends and root causes that might predict or suggest targets for suicide prevention. We can try to find and subsequently develop more effective indicators and preventors for suicide in this way.  
 
-From our analysis, we can conclude that suicide  
+From our analysis, we can conclude that suicide rates have somewhat decreased over time, and the reasons for this can possibly be related to development or the like. However, it appears that the United States has instead had rising suicide rates, which are higher than the global average. Within the data for the United States, we can also see how there appears to be rising suicide rates as people get older, which suggests a target for public health work to be done. In addition, men seem to commit suicide at alarmingly higher rates than women in the United States, which is oftentimes a surprising statistic worth looking into.  
 
 ## Reflection
 
-Include a reflection on what you learned from your analysis of the time series data.  You might answer such questions as: What did you learn? What new questions do you have?  
+I learned about how suicide rates have changed over time, and how global development and the like has affected this as well. I also learned about the United States' specific suicide rates and what the demographics look like, with the information on sex and age being especially surprising to me.  
 
-I learned about  
-
-Some new questions that arose when reflecting upon the results included how other cultural aspects or specific environments (e.g. urban, rural) affect suicide rates. As country-wide data is fairly generalized and very broad, it isn't really fair to draw conclusions from across this data, and generalizing a generation using multiple cultures and countries feels inaccurate as well.  
+Some new questions that arose when reflecting upon the results included how other cultural aspects or specific environments (e.g. urban, rural) affect suicide rates. As country-wide data is fairly generalized and very broad, it isn't really fair to draw conclusions from across this data, and generalizing a generation using multiple cultures and countries feels inaccurate as well. The disparities in suicide rates between younger and older people, as well as women and men, was extremely surprising to me and I am therefore curious as to the root causes and how we could possible combat these issues.  
 
 ## Code
 
